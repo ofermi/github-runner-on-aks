@@ -14,7 +14,7 @@ param adminusername string
 @secure()
 param sshPubKey string
 
-resource akscluster 'Microsoft.ContainerService/managedClusters@2025-03-01' = {
+resource akscluster 'Microsoft.ContainerService/managedClusters@2024-09-01' = {
   name: clusterName
   location: location
   identity: {
